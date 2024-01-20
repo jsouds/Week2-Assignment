@@ -1,0 +1,39 @@
+body{
+    color: white;
+    background-color: rgb(170, 0, 0);
+    background-image: url(https://pbs.twimg.com/media/EOnaLVwUEAIKPpb.jpg:large);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.head{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(170, 0, 0);
+}
+.head:hover{
+    color: rgb(173, 153, 93);
+}
+.div-space{
+    margin-bottom: 460px;
+}
+.content-border{
+    border-color: black;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(170, 0, 0);
+}
+.links{
+    color: white;
+    border-color: black;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(170, 0, 0);
+}
+a:visited { text-decoration: none; color:white;}
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:rgb(173, 153, 93) }

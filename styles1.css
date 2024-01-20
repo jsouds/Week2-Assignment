@@ -1,0 +1,81 @@
+/*using background-color*/
+body {
+    background-color: royalblue;
+}
+/*using text shadows and alignment*/
+h1 {
+    color: gold;
+    text-shadow: black 1px 1px;
+    text-align: center;
+}
+/*hover aspect to change color*/
+h1:hover{
+    color: red;
+}
+.text-align{
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+/*changing height and spacing*/
+#img-height{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Adding a border*/
+.color-border{
+    color: gold;
+    text-shadow: black 1px 1px;
+    border-color: black;
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+.text-style{
+    color: white;
+    text-shadow: black 1px 1px;
+}
+.top-3{
+    color: white;
+    border-color: black;
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 5px;
+}
+/*Making it so my links aren't blue and purple*/
+a:visited { text-decoration: none; color:white;}
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:gold }
+/*Adding some style to links*/
+.button{
+    transition-duration: 0.4s; 
+  border: none;
+  color: white;
+  padding: 1px 2px;
+  text-decoration: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.submit-style{
+    color: white;
+    text-shadow: black 2px 2px;
+}
+/*change dropdown color*/
+.select{
+    background-color:white;
+  color: royalblue;
+  text-shadow: black 1px 1px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.select:hover{
+    color: gold;
+}

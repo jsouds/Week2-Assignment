@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(158, 124, 12);
+    background-image: url(https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/ravens/lnvzqtqjo3uigliyypsp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.head{
+    color: white;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(26, 25, 95);
+}
+.head:hover{
+    color: rgb(158, 124, 12);
+}
+/*add spacing between elements*/
+.div-space{
+    margin-bottom: 400px;
+}
+.content-border{
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(26, 25, 95);
+}
+.links{
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(26, 25, 95);
+}
+/*change color of links so they aren't blue and purple*/
+a:visited { text-decoration: none; color:white;}
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:rgb(158, 124, 12) }
